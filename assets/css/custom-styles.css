@@ -1,0 +1,70 @@
+	
+.badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px; /* Smaller gap between badges */
+	margin-top: 10px;
+	justify-content: flex-start; /* Left-aligned */
+}
+
+.badge {
+	color: #333; /* Darker text for better readability */
+	padding: 4px 6px; /* Smaller padding for smaller badges */
+	border-radius: 4px; /* Slight rounded corners */
+	font-size: 0.6rem; /* Smaller font size */
+	font-weight: bold;
+	text-transform: uppercase; /* Capitalized text */
+	box-shadow: none; /* No shadow */
+	display: inline-block;
+	border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+}
+
+
+.badge.red {
+    background-color: hsl(0, 50%, 80%); /* Soft red */
+}
+
+.badge.yellow {
+    background-color: hsl(45, 60%, 85%); /* Soft yellow */
+}
+
+.badge.green {
+    background-color: hsl(120, 40%, 80%); /* Soft green */
+}
+
+
+
+.badge.orange {
+    background-color: hsl(30, 50%, 80%); /* Soft orange */
+}
+
+.badge.purple {
+    background-color: hsl(280, 50%, 85%); /* Soft purple */
+}
+/* Very Light Yellow */
+.badge.yellow {
+    background-color: hsl(55, 100%, 90%); /* Very light yellow */
+}
+
+/* Very Light Blue */
+.badge.blue {
+    background-color: hsl(210, 100%, 90%); /* Very light blue */
+}
+
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+
